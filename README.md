@@ -13,7 +13,6 @@ Created by Engineering IDEAs Clinic co-op students.
 - [Sub-Problems](#sub-problems)
   - [Baggage Handling System](#baggage-handling-system)
   - [Gate Management System](#gate-management-system)
-  - [Air Traffic Control System](#air-traffic-control-system)
   - [Departure Control System](#departure-control-system)
 - [Development Approach](#development-approach)
 - [Submission](#submission)
@@ -26,7 +25,6 @@ Created by Engineering IDEAs Clinic co-op students.
 
 - [Baggage Handling System challenge](baggage-handling-system/README.md)
 - [Gate Management System challenge](gate-management-system/README.md)
-- [Air Traffic Control challenge](air-traffic-control/README.md)
 - [Departure Control System challenge](departure-control-system/README.md)
 - [Submission expectations](#submission)
 - [Judging rubric](#judging-criteria)
@@ -112,38 +110,6 @@ Your challenge is to produce a conflict-free gate plan and update it when disrup
 This is the most structured coding subproblem. You may write your own assignment algorithm or build a larger tool around the supplied baseline.
 
 [Open the Gate Management System challenge](gate-management-system/README.md).
-
-### [Air Traffic Control System](air-traffic-control/README.md)
-
-![Air traffic controller monitoring aircraft](images/air-traffic-controller.jpg)
-
-Air Traffic Control (ATC) automation combines surveillance reports, flight-plan updates, route information, and controller inputs to estimate where an aircraft is and where it is going. Those messages can be noisy, delayed, incomplete, or contradictory.
-
-#### Challenge
-
-Your challenge is to process a simulated aircraft message stream, reconstruct the likely route, estimate the aircraft state, predict its next waypoint and arrival time, and flag information that should not be trusted without review.
-
-#### Potential Solutions
-
-##### Supported Solution
-
-* ATC message-stream tracking starter kit [[Supported]](air-traffic-control/starter-kit/README.md) — reconstruct routes, estimate aircraft state, detect anomalous reports, compare route hypotheses, plan around blocked waypoints, and visualize results.
-
-##### Additional Possibilities
-
-* Multi-aircraft conflict and separation-risk detection
-* Arrival sequencing and runway scheduling
-* Airport-surface tracking and taxi-route conflict monitoring
-* Weather-aware rerouting decision support
-* Airspace-sector congestion and controller-workload forecasting
-* Emergency, diversion, and lost-communication response planning
-* Raw ADS-B/Mode S message ingestion using the Python `pyModeS` decoder, following [The 1090 Megahertz Riddle](https://mode-s.org/1090mhz/), and adapting the decoded aircraft state for the starter tracker. `pyModeS` is already included in the ATC requirements.
-
-#### Starting Point
-
-The starter kit includes repeatable scenarios, a working tracker, a simulator with known ground truth, optional advanced tools, and a live-aircraft demo.
-
-[Open the Air Traffic Control challenge](air-traffic-control/README.md).
 
 ### [Departure Control System](departure-control-system/README.md)
 
