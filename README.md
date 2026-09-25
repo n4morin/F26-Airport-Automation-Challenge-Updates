@@ -228,6 +228,7 @@ Your submission may include code, a dashboard, a simulation, a hardware and soft
 | --- | --- | --- |
 | Functionality | The prototype works during judging. | /8 |
 | Build quality | The implementation or physical prototype is well made. | /3 |
+**| Effort and process? | How much work did the students put in? What was their capability level before the hackathon? Did they use helpers? (eg. AI, provided solutions) | /3 |
 
 ### Safety and Regulations
 
@@ -235,6 +236,7 @@ Your submission may include code, a dashboard, a simulation, a hardware and soft
 | --- | --- | --- |
 | Employee and operator safety | The design accounts for risks to workers and users. | /3 |
 | Regulatory awareness | The team identifies relevant Canadian or international requirements. | /3 |
+
 
 ### Demo and Presentation
 
