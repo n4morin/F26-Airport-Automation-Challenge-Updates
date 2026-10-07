@@ -142,7 +142,7 @@ Run commands from the `gate-management-system` folder.
 
 | Location | Purpose |
 | --- | --- |
-| [`solution.py`](solution.py) | A correct, minimal first-fit baseline and one possible solution interface |
+| [`solution_firstfit.py`](solution_firstfit.py) | A correct, minimal first-fit baseline and one possible solution interface |
 | [`solution_kd.py`](solution_kd.py) | A more scoring-aware reference algorithm to study or use |
 | [`evaluator.py`](evaluator.py) | Replays a scenario and checks the solution's assignments |
 | [`visualize.py`](visualize.py) | Serves an interactive timeline or exports a visualization |
