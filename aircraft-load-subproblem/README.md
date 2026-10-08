@@ -29,8 +29,15 @@ A possible scope below. You can extend one or build something else entirely.
 
 ## Resources
 
-- [ICAO Annex 6: Operation of Aircraft](https://store.icao.int/en/annex-6-operation-of-aircraft): international aircraft-operation context, including mass and balance responsibilities
-- [IATA Resolution 753 baggage-tracking implementation guide](https://www.iata.org/contentassets/5c4aa8b8b3b1432697d2bf3301450684/reso753-implementation-guide---2023_issue-4.02.pdf): baggage tracking at defined handoff points
-- [IATA Weight and Balance Manuals](https://www.iata.org/en/publications/manuals/weight-balance-manuals/): airline load-control procedures and data standards
-- [Brock Solutions SmartLoad](https://www.brocksolutions.com/smartload/): An industry solution for cargo tracking, load reconciliation, and real-time weight-and-balance plan validation.
+### Industry Solutions
+
+- [Brock Solutions SmartLoad](https://www.brocksolutions.com/smartload/): A real-world cargo management solution that tracks aircraft loading and validates loads against weight-and-balance plans.
+- [JetBlue SmartLoad Case Study](https://www.brocksolutions.com/jetblue-is-loading-their-aircrafts-smarter-with-help-from-brock-solutions-and-smartload/): An example of how an airline uses automated loading verification and real-time weight-and-balance information.
+
+### Technical References
+
+- [SKYbrary – Loading Aircraft with Cargo](https://skybrary.aero/articles/loading-aircraft-cargo): Background information on aircraft cargo loading and operational safety.
+- [FAA – Weight and Balance Handbook](https://www.faa.gov/sites/faa.gov/files/2023-09/Weight_Balance_Handbook.pdf): Explains aircraft weight limits, centre of gravity, and safe loading calculations.
+- [FAA – Aircraft Weight and Balance Control](https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/1035868?pubDate=20260114): Guidance on aircraft weight-and-balance control programs.
+- [FAA – Pilot's Handbook, Chapter 10: Weight and Balance](https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-10-weight-and-balance): An introductory explanation of aircraft loading, weight distribution, and balance.
 
