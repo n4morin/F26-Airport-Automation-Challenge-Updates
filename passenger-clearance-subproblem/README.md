@@ -32,16 +32,20 @@ A few possible scopes below. You can extend one or build something else entirely
 ## Resources
 ### Challenge Resources
 
-- [Unified Identity Gateway implementation](unified-identity-gateway/README.md)
-- [Identity-gateway challenge specification](unified-identity-gateway/docs/challenge-spec.md)
+- [Unified Identity Gateway implementation](https://github.com/n4morin/F26-Airport-Automation-Challenge-Updates/blob/main/passenger-clearance-subproblem/unified-identity-gateway/README.md): An existing implementation for passenger identity verification and clearance decisions.
+- [Identity-gateway challenge specification](https://github.com/n4morin/F26-Airport-Automation-Challenge-Updates/blob/main/passenger-clearance-subproblem/unified-identity-gateway/docs/challenge-spec.md): Technical requirements and expected behaviour for the identity gateway.
+
+### Industry Solutions
+
+- [Brock Solutions Passenger Monitoring & Processing](https://www.brocksolutions.com/passenger-monitoring-processing/): An industry solution for passenger verification, boarding pass validation, and real-time passenger monitoring.
 
 ### Safety, Privacy, and Industry References
 
-- [ICAO Doc 9303 machine-readable travel documents](https://www.icao.int/publications/pages/publication.aspx?docnum=9303): international specifications for machine-readable passports and identity documents
-- [ICAO Annex 9: Facilitation](https://www.icao.int/facilitation-programmes/Annex9): international passenger, border, and document-control context
+- [IATA One ID](https://www.iata.org/en/programs/passenger/one-id/): An industry initiative for digital identity verification, automated document checks, and seamless passenger processing.
+- [IATA Common Use Standards](https://www.iata.org/en/programs/passenger/common-use/): Standards supporting airport check-in, boarding, and shared passenger processing systems.
+- [ICAO Traveller Identification Programme](https://www.icao.int/icao-trip): A framework for secure and efficient traveller identification.
+- [ICAO Annex 9: Facilitation](https://www.icao.int/facilitation-programmes/Annex9): International passenger, border, and document-control context.
 - [Canadian Aviation Security Regulations, 2012](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2011-318/index.html)
 - [Secure Air Travel Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2015-181/FullText.html)
 - [Personal Information Protection and Electronic Documents Act](https://laws-lois.justice.gc.ca/eng/acts/P-8.6/index.html)
 - [Accessible Transportation for Persons with Disabilities Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2019-244/index.html)
-- [Brock Solutions Passenger Monitoring & Processing](https://www.brocksolutions.com/passenger-monitoring-processing/): An industry solution for passenger verification, boarding pass validation, and real-time passenger monitoring.
-
