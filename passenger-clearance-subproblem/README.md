@@ -4,7 +4,6 @@
 - [The Problem](#the-problem)
 - [The Challenge](#the-challenge)
 - [Potential Solutions](#potential-solutions)
-- [Evaluation](#evaluation)
 - [Resources](#resources)
 
 ## The Problem
@@ -29,21 +28,6 @@ A few possible scopes below. You can extend one or build something else entirely
 | Document-review assistant | Validate required fields, identify mismatches, and route uncertain cases to an agent. | [Identity-gateway rules](unified-identity-gateway/apps/api/src/rules/) |
 | Passenger-clearance dashboard | Show which passengers are cleared, blocked, or awaiting review and explain outstanding issues. | [Unified Identity Gateway](unified-identity-gateway/README.md) |
 | Baggage reconciliation tool | Link accepted bags to passengers and explain missing or unexpected scans. | [Baggage Handling System](../baggage-handling-system/README.md) |
-
-### Evaluation
-
-Worth checking your solution against:
-
-| Area | What to look for |
-| --- | --- |
-| Workflow completeness | Does the process work from input to result? |
-| Data modelling | Are passengers, bags, flights, and seats represented clearly? |
-| Decision quality | Are recommendations, predictions, and review flags useful? |
-| Exception handling | Does the system handle missing, inconsistent data, and edge cases? |
-| Dashboard clarity | Can an operator understand readiness and outstanding work from a glance? |
-| Privacy and accessibility | Is sensitive data minimized, and is feedback usable by people with different needs? |
-| Code quality | Is the implementation modular, readable, and maintainable? |
-| Demonstration | Does the demo make the value and limitations clear? |
 
 ## Resources
 ### Challenge Resources
