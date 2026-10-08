@@ -33,7 +33,6 @@ A few possible scopes below. You can extend one or build something else entirely
 ### Challenge Resources
 
 - [Unified Identity Gateway implementation](unified-identity-gateway/README.md)
-- [Passenger-processing project ideas](passenger-processing/README.md)
 - [Identity-gateway challenge specification](unified-identity-gateway/docs/challenge-spec.md)
 
 ### Safety, Privacy, and Industry References
