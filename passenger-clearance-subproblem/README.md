@@ -44,4 +44,5 @@ A few possible scopes below. You can extend one or build something else entirely
 - [Secure Air Travel Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2015-181/FullText.html)
 - [Personal Information Protection and Electronic Documents Act](https://laws-lois.justice.gc.ca/eng/acts/P-8.6/index.html)
 - [Accessible Transportation for Persons with Disabilities Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2019-244/index.html)
+- [Brock Solutions Passenger Monitoring & Processing](https://www.brocksolutions.com/passenger-monitoring-processing/): An industry solution for passenger verification, boarding pass validation, and real-time passenger monitoring.
 
