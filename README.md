@@ -73,7 +73,13 @@ Examples of Departure Control Systems include: SmartLoad and SmartClear by Brock
 You can check out the software solutions from Brock Solutions here: [https://www.brocksolutions.com/airports-and-airlines/#]
 
 ## Sub-Problems
-### [Lost Baggage Recovery](baggage-loss-subproblem/README.md)
+### [Lost or Misplaced Baggage](baggage-loss-subproblem/README.md)
+other name ideas:
+- baggage recovery
+- baggage tracking
+- lost or misplaced baggage <- current best
+- baggage reconciliation
+- baggage reconciliation and loss prevention
 
 Bags can become separated from their owners for various reasons. As they move through the baggage handling system the tags can become damaged, losing the passenger/destination information, or they could be missing when loading the plane. Bags could also be swapped by bad actors, with the tag being removed and placed on a different bag. All ways of losing a bag cause distress to the passenger, as they have lost their personal belongings. This, in turn, causes a negative reputation and loss of money for the airlines and airport who handled the baggage.
 
