@@ -45,52 +45,6 @@ Make sure to pick a scope you can actually finish. A good solution should be abl
 - Can an operator see what's happening and why, not just the raw assignments?
 - Does it hold up beyond the sample scenarios?
 
-### Flight Schedule and Other Considerations 
-Airports plan gates the way this challenge is structured: the full day's flight schedule is filed first, then a timeline of updates arrives at later information times.
-
-```text
-0500  planning     the full filed schedule
-0900  disruption  a gate outage or aircraft swap
-1000  disruption  a delay or cancellation
-```
-
-The opening planning message contains the filed schedule for the day. Later messages may report a delay, gate outage, aircraft change, cancellation, or priority diversion. An unscheduled diversion can also arrive during the day with `priority` set and need a gate immediately.
-
-Reassignments affect passengers, ground crews, gate displays, and baggage operations, so a stable recovery is usually better than reshuffling the entire airport after every update.
-
-If you're working on the assignment algorithm itself (improving it or replacing it), it should:
-
-- assign every compatible flight when capacity allows
-- prevent overlapping aircraft from using the same gate
-- respect aircraft size, jetbridge, international, domestic, and cargo rules
-- move flights away from unavailable or newly incompatible gates
-- handle unassigned or malformed cases without crashing
-- minimize reassignments and passenger walking distance
-- work on schedules beyond the visible examples
-
-### Required Input and Outputs
-
-If you're writing or modifying an assignment algorithm, the evaluator calls your `decide(observation)` function at each information time. Skip this section if you're building on top of the existing algorithm instead.
-
-The observation includes:
-
-- current time
-- gate details and outages
-- waiting, assigned, and recently changed flights
-- current gate occupancy
-- aircraft information
-
-Return assignments using this shape:
-
-```python
-{
-    "assignments": [(flight_id, gate_id)],
-    "reassignments": [(flight_id, gate_id)],
-}
-```
-
-Use `assignments` for a flight receiving its first gate and `reassignments` for a flight moving from an existing gate.
-
 ## Potential Solutions
 
 Three broad directions — improve what's here, replace it with something new, or build on top of it. The supplied algorithms are examples, not the only acceptable approach.
@@ -156,31 +110,6 @@ Useful starting scenarios include:
 | [`busy_day.json`](flight_data/busy_day.json) | A larger schedule with delays and cancellation |
 
 Do not modify `evaluator.py` or the `gms/` package unless challenge staff asks you to. Put your decision logic in your own solution module
-
-### Evaluation
-The evaluator takes into consideration a couple of things. 
-
-#### Hard Failures 
-A run fails when the solution produces an invalid plan, including:
-
-- overlapping aircraft at one gate
-- an aircraft that is too large for its gate
-- a missing required jetbridge
-- an international, domestic, passenger, or cargo gate-type violation
-- an unknown or cancelled flight assignment
-- invalid output format
-- a changed flight left in an invalid gate
-
-#### Soft Score
-
-Valid runs receive a score where lower is better. The score considers:
-
-- reassignments, especially after gate occupancy begins
-- walking distance
-- domestic flights using international gates
-- flights left unassigned at the end
-
-Every supplied scenario is designed to allow a solution with zero hard failures. Hidden scenarios may use different schedules and airport layouts. Besides considering hard failures and soft scores, it is also important to consider code quality, the clarity of the visual model, and if your changes are meaningful/useful to airport staff. 
 
 ## Resources
 ### Industry Context
